@@ -1,0 +1,62 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, rgb(165, 165, 234), rgb(222, 162, 162));
+  background-attachment: fixed;
+}
+
+#timerContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#setTimer {
+  display: flex;
+  font-size: 40px;
+  align-items: center;
+}
+
+.setting {
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255, 0.3);
+  width: 70px;
+  outline: none;
+  text-align: center;
+  font-size: 30px;
+}
+
+#timerDisplay {
+  background-color: rgba(240, 198, 205, 0.7);
+  border-radius: 20px;
+  font-size: 100px;
+  height: 200px;
+  padding: 50px;
+  margin: 10px;
+}
+
+button {
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  margin: 10px;
+}
+
+button#label {
+  width: 150px;
+}
+
+button:hover {
+  background-color: rgb(165, 165, 234);
+  color: #fff;
+}
